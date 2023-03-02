@@ -1,0 +1,2 @@
+let estadoLinterna = false;
+
