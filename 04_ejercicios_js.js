@@ -77,8 +77,7 @@ function sonIguales(x, y) {
   } else {
     return false
   } */
-
-  return x === y ? true : false;
+  return x === y;
 }
 console.log(sonIguales(3, "tres"));
 console.log(sonIguales("allo", "allo"));
@@ -92,7 +91,7 @@ function tienenMismaLongitud(str1, str2) {
   } else {
     return false
   } */
-  return str1.length === str2.length ? true : false;
+  return str1.length === str2.length;
 }
 console.log(tienenMismaLongitud("auto", "hola"));
 console.log(tienenMismaLongitud("manzana", "hay"));
@@ -104,7 +103,7 @@ function menosQueNoventa(num) {
   /* if (num < 90) {
     return true
   } else return false */
-  return num < 90 ? true : false;
+  return num < 90;
 }
 console.log(menosQueNoventa(45));
 console.log(menosQueNoventa(450));
@@ -114,7 +113,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50 ? true : false;
+  return num > 50;
 }
 console.log(mayorQueCincuenta(15));
 console.log(mayorQueCincuenta(55));
@@ -132,7 +131,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num % 2 === 0 ? true : false;
+  return num % 2 === 0;
 }
 console.log(esPar(25));
 console.log(esPar(22));
@@ -142,7 +141,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num % 2 !== 0 ? true : false;
+  return num % 2 !== 0;
 }
 console.log(esImpar(25));
 console.log(esImpar(20));
